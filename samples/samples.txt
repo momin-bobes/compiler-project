@@ -1,0 +1,14 @@
+hh(){
+
+	if(true)
+	{
+          print("true");
+          print("momin");
+          x=25+35;
+
+  	}
+  	else
+          print("false");
+          print("bobes");
+
+}
