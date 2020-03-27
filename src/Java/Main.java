@@ -29,7 +29,7 @@ public class Main {
             //Parse p = (Parse) new Basevisitor_fun().visit(tree);
 //           System.out.println(p.toString());
             p.accept(new BaseASTVisitor ());
-            System.out.println("done");
+            System.out.println("milestone");
 
 //            System.out.println(p.toString());
         } catch (IOException e) {
