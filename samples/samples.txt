@@ -5,6 +5,7 @@ hh(){
           print("true");
           print("momin");
           x=25+35;
+          y=5;
 
   	}
   	else
