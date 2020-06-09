@@ -2,18 +2,19 @@ package Java;
 
 import Java.AST.Parse;
 import Java.Base.BaseVisitor;
+import Java.SymbolTable.SymbolTable;
 import Java.Visitor.BaseASTVisitor;
 import gen.SQLLexer;
 import gen.SQLParser;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
-
 import java.io.IOException;
 
 import static org.antlr.v4.runtime.CharStreams.fromFileName;
 
 public class Main {
+    public static SymbolTable symbolTable = new SymbolTable();
 
     public static void main(String[] args) {
         try {
